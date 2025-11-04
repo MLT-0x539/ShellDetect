@@ -161,7 +161,6 @@ class shellDetector {
 
   private function version() {
     $context = stream_context_create(array('http' => array('timeout' => 10, 'header' => 'Connection: close')));
-    //check application version
     $app_version = floatval($this->_version);
     $server_version = file_get_contents('https://raw.github.com/emposha/PHP-Shell-Detector/master/version/app', 0, $context);
     if (strlen($server_version) != 0 && floatval($server_version) != 0 && (floatval($server_version) > $app_version)) {
