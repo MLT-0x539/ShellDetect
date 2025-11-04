@@ -6,6 +6,7 @@
  <title>WEB SHELL DETECTOR</title>
  <meta charset="UTF-8">
  <script src="live_output.js"></script>
+ <script src="dosplay_iframe.js"</script>
  <link rel="stylesheet" href="live_output.css">
 </head>
 <body>
@@ -37,12 +38,12 @@
   
  <a href="javascript:toBeUpdated();"> Display sorted output results: </a>
  <!-- IFRAME REMAINS HIDDEN UNTIL HYPERLINK IS CLICKED -->
+ <!-- 'display_iframe.js' SCRIPT IS CALLED ONCE HYPERLINK IS CLICKED -->
  <style>
    iframe {
     display: none;
     }
  </style>
  <iframe src="result_sorted_output.html" width="40%" height="35%" frameborder="0"></iframe>
- <script src="dosplay_iframe.js"</script>
 </body>
 </html>
