@@ -5,7 +5,7 @@
    $shell_db_include = 'shell_detect.db';
    $shell_db_include2 = 'shell_detect_plaintext.db';
    $shell_ini_include = 'shell_detect.ini';
-   $result_sort_include = 'result_sorter.sh';;
+   $result_sort_include = 'result_sorter.sh';
    $sorted_output_results_include = 'result_sorted_output.html';
    $python_script_include = 'shell_detect.py'l
    $version_include = '/conf/version.db';
