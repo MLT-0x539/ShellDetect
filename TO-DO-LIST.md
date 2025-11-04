@@ -27,6 +27,8 @@
 - [ ] write script that perfo0rms analysis of favicon.ico to detect hidden webshells
 - [ ] write script that performs analysis of .htaccess to detect hidden webshells
 - [ ] write script that performs analysis of robots.txt to detect hidden webshells
+- [ ] add support for deep packet analysis of all outbound HTTP traffic
+- [ ] add support for deep packet analysis of traffic bound to other services (where possible)
 - [x] create detection support for PHP webshells
 - [ ] create detection support for py webshells
 - [ ] create detection support for ASP webshells
