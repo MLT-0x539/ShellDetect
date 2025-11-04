@@ -88,9 +88,9 @@ class shellDetector {
       $this->hidesuspicious = false;
     }
 
-    if (file_exists('shelldetect.db')) {
+    if (file_exists('shell_detect.db')) {
       $context = stream_context_create(array('http' => array('timeout' => 30)));
-      $this->fingerprints = unserialize(base64_decode(file_get_contents('shelldetect.db', 0, $context)));
+      $this->fingerprints = unserialize(base64_decode(file_get_contents('shell_detect.db', 0, $context)));
     }
 
     if ($this->remotefingerprint) {
