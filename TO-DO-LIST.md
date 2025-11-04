@@ -8,7 +8,7 @@
 - [x] add translation support for other languages
 - [ ] increase translation support so top25 most widely-spoken languages are supported
 - [ ] create basic revshell detection
-- [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc]
+- [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc
 - [x] add signature detection for known webshells
 - [ ] expand upon signature detection so that ALL publicly-known webshells are covered#
 - [x] add detection for potentially malicious functions/syscalls
@@ -24,7 +24,7 @@
 - [x] write automated installation scripts
 - [x] write PHP script for automated setup + execution of python script and bash script
 - [ ] expand upon regex in PHP and Python scripts for detection of function names
-- [ ] write script that perfo0rms analysis of favicon.ico to detect hidden webshells
+- [ ] write script that performs analysis of favicon.ico to detect hidden webshells
 - [ ] write script that performs analysis of .htaccess to detect hidden webshells
 - [ ] write script that performs analysis of robots.txt to detect hidden webshells
 - [ ] add support for deep packet analysis of all outbound HTTP traffic
