@@ -7,7 +7,7 @@ date_default_timezone_set('GMT');
 
 $params = array('extension' => array('php', 'txt'));
 if (is_file('shell_detect.ini')) {
-  $params = parse_ini_file('shelldetect.ini');
+  $params = parse_ini_file('shell_detect.ini');
 }
 
 shellDetector::$_settings = $params;
