@@ -13,6 +13,8 @@ include("web_control_panel.php");
 include("PYexec.php");
 include("BATexec.php");
 include("BASHexec.php");
+include("XDebug_installer.php");
+include("XDebug.php");
 include("BR.php");
 include("chinese.php");
 include("french.php");
