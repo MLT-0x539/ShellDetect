@@ -36,6 +36,10 @@ throw new Exception($logpath . "file already exist");
     <h2><u> ADDITIONAL INSTALLATIONS: </u></h2>
     <p>To configure the python script, <a href="python.html"> CLICK HERE </a></p><br />
     <p>To configure the bash log sorter, <a href="log_sorter.html"> CLICK HERE </a></p><br />
+    <h2><u> DOCUMENTATION: </u></h2>
+    <a href="/documentation/API_docs.html"> API DOCUMENTATION CAN BE FOUND HERE</a><br />
+    <a href="/documentation/python_docs.html"> PYTHON SCRIPT DOCUMENTATION CAN BE FOUND HERE</a><br />
+    <a href="/documentation/misc_docs.html"> ALL OTHER DOCUMENTATION CAN BE FOUND HERE</a><br />
   </center>
   </body>
 </htmL>
