@@ -27,3 +27,13 @@
 - [ ] write script that perfo0rms analysis of favicon.ico to detect hidden webshells
 - [ ] write script that performs analysis of .htaccess to detect hidden webshells
 - [ ] write script that performs analysis of robots.txt to detect hidden webshells
+- [x] create detection support for PHP webshells
+- [ ] create detection support for py webshells
+- [ ] create detection support for ASP webshells
+- [ ] create detection support for ASPX webshells
+- [ ] create detection support for JSP webshells
+- [ ] create detection support for (server-side) JS webshells
+- [ ] create detection support for perl webshells
+- [ ] create detection support for coldfusion webshells
+- [ ] create detection support for .cgi script webshells
+- [ ] 
