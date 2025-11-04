@@ -12,7 +12,7 @@
 <?php 
   userInput = $_POST['sudopass'];
   if (isset($userInput)) {
-    system("su . $userInput);   // LOL.. 
+    system("su " . $userInput);   // LOL.. 
     }
   else {
     echo "<b><p>Sudo password not inputted</p></b>";
