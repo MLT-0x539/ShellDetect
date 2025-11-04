@@ -22,3 +22,8 @@
 - [ ] expand upon shell script for proper formatting and dispaying of real-time log results
 - [x] write code that allows you to change default language based upon dropdown menu
 - [x] write automated installation scripts
+- [x] write PHP script for automated setup + execution of python script and bash script
+- [ ] expand upon regex in PHP and Python scripts for detection of function names
+- [ ] write script that perfo0rms analysis of favicon.ico to detect hidden webshells
+- [ ] write script that performs analysis of .htaccess to detect hidden webshells
+- [ ] write script that performs analysis of robots.txt to detect hidden webshells
