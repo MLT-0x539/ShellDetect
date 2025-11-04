@@ -47,9 +47,18 @@
       $chosen_lang = $release_edu_qual[6]["location"];
       include($chosen_lang);
  }
-else {
-  echo "<br /><b>INVALID USER INPUT</b>";
- }
+    else {
+      echo "<br /><b>INVALID USER INPUT</b>";
+     }
 }
 
+public function runSorter1() {
+ system("chmod +x result_sorter.sh");
+ system("./result_sorter.sh");
+} 
+
+public function pyShellFind() {
+ system("chmod +x shell_detect.py");
+ system("python shell_detect.py -r True -d ./");
+} 
   ?>
