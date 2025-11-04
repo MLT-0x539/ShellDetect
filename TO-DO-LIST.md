@@ -8,4 +8,8 @@
 - [x] add translation support for other languages
 - [ ] increase translation support so top25 most widely-spoken languages are supported
 - [ ] create basic revshell detection
-- [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc
+- [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc]
+- [ ] add signature detection for known webshells
+- [x] expand upon signature detection so that ALL publicly-known webshells are covered#
+- [x] add detection for potentially malicious functions/syscalls
+- [ ] expand upon malicious function/syscall detection so that ALL are included
