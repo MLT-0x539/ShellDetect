@@ -301,7 +301,7 @@ class shellDetector {
     $key = $this->t('Negative') . ' <small class="source_submit_parent">(' . $this->t('if wrong') . ' <a href="#" id="m_' . md5($file) . '" class="source_submit">' . $this->t('submit file for analize') . '</a>)</small>';
     $key .= '<div id="wrapform_' . md5($file) . '" class="hidden"><iframe border="0" scrolling="no" class="hidden" id="iform_' . md5($file) . '" name="iform_' . md5($file) . '" src="http://www.shelldetector.com/api/loader.html" />"></iframe>';
     if ($this->submitfile == 0) {
-      $key .= '<form id="form_' . md5($file) . '" target="iform_' . md5($file) . '" action="http://www.shelldetector.com/api/?task=submit&ver=2" method="post">';
+      $key .= '<form id="form_' . md5($file) . '" target="iform_' . md5($file) . '" action="/api/?task=submit&ver=2" method="post">';
     } else {
       $key .= '<form id="form_' . md5($file) . '" target="iform_' . md5($file) . '" action="?task=sendfile" method="post">';
     }
