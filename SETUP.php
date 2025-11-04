@@ -27,9 +27,15 @@ throw new Exception($logpath . "file already exist");
     <link rel="stylesheet" href="/assets/setup_style.css">
   </head>
   <body>
-  <cebter>
+  <center>
     <h2><u> SETUP INFORMATION: </u></h2>
     <?php echo "<p>Reaktune logging results can be located at $logfile</p><br />"; ?>
-  </cebter>
+    <p>Default language is English</p><br />
+    <p>Default language can be changed at the following URL:</p><br />
+    <a href="lang_change.html"> URL TO CHANGE LANGUAGE </a><br />
+    <h2><u> ADDITIONAL INSTALLATIONS: </u></h2>
+    <p>To configure the python script, <a href="python.html"> CLICK HERE </a></p><br />
+    <p>To configure the bash log sorter, <a href="log_sorter.html"> CLICK HERE </a></p><br />
+  </center>
   </body>
 </htmL>
