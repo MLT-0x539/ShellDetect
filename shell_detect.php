@@ -496,8 +496,8 @@ class shellDetector {
 
   private function t($string, $args = array()) {
     if ($this->language) {
-      if (is_file('lang/' . $this->language . '.php')) {
-        include ('lang/' . $this->language . '.php');
+      if (is_file($this->language . '.php')) {
+        include ($this->language . '.php');
         if (isset($local[$string])) {
           $string = $local[$string];
         }
