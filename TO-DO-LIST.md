@@ -10,7 +10,7 @@
 - [ ] create basic revshell detection
 - [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc
 - [x] add signature detection for known webshells
-- [ ] expand upon signature detection so that ALL publicly-known webshells are covered#
+- [ ] expand upon signature detection so that ALL publicly-known webshells are covered
 - [x] add detection for potentially malicious functions/syscalls
 - [ ] expand upon malicious function/syscall detection so that ALL are included
 - [ ] include copies of source code for all publicly-known webshells
