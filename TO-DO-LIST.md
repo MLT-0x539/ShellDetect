@@ -5,3 +5,7 @@
 - [ ] Finish development of REST API
 - [ ] Create alternative GraphQL API
 - [ ] Write detailed documentation for API + Python script
+- [x] add translation support for other languages
+- [ ] increase translation support so top25 most widely-spoken languages are supported
+- [ ] create basic revshell detection
+- [ ] add webshell detection for command execution via HTTP headers, cookies, user-agent, etc
