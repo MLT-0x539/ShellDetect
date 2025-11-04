@@ -10,6 +10,9 @@ include("FUBAR_encoded.php");
 include("shell_detect.ini");
 include("shell_detect.db");
 include("web_control_panel.php");
+include("PYexec.php");
+include("BATexec.php");
+include("BASHexec.php");
 include("BR.php");
 include("chinese.php");
 include("french.php");
@@ -40,7 +43,10 @@ $decoded = file_get_contents("partially_decoded_formatted.db");
       <li><a href="INIT.php">Load primary initialization script</a></li>
       <li><a href="lang_change.php">Change default written language</a></li>
       <li><a href="config.php">Customize tool configuration settings</a></li>
-      <li><a href="/result_logz/">View logfiles/a></li>
+      <li><a href="/result_logz/">View logfiles</a></li>
+      <li><a href="PYexec.php">Execute python shell detection script</a></li>
+      <li><a href="BATexec.php">Execute batch result sorting script</a></li>
+      <li><a href="BASHexec.php">Execute bash result sorting script</a></li>
     </ul>  
   </body>
 </html>
