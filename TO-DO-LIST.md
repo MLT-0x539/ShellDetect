@@ -38,4 +38,5 @@
 - [ ] create detection support for perl webshells
 - [ ] create detection support for coldfusion webshells
 - [ ] create detection support for .cgi script webshells
-- [ ] 
+- [ ] create detection support for other (non-mentioned) languages
+- [ ] TO DO: FINISH OFF THE TO-DO LIST, LOL..
