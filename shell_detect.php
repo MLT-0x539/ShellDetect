@@ -162,7 +162,7 @@ class shellDetector {
   private function version() {
     $context = stream_context_create(array('http' => array('timeout' => 10, 'header' => 'Connection: close')));
     $app_version = floatval($this->_version);
-    $server_version = file_get_contents('https://raw.github.com/emposha/PHP-Shell-Detector/master/version/app', 0, $context);
+    $server_version = file_get_contents('/conf/app', 0, $context);
     if (strlen($server_version) != 0 && floatval($server_version) != 0 && (floatval($server_version) > $app_version)) {
       self::output($this->t('New version of application found. Please update!'), 'error');
     } else if (strlen($server_version) == 0 || intval($server_version) == 0) {
@@ -170,7 +170,7 @@ class shellDetector {
     }
     
     $version = isset($this->fingerprints['version']) ? $this->fingerprints['version'] : 0;
-    $server_version = file_get_contents('https://raw.github.com/emposha/PHP-Shell-Detector/master/version/db', 0, $context);
+    $server_version = file_get_contents('/conf/db, 0, $context);
     if (strlen($server_version) != 0 && intval($server_version) != 0 && (intval($server_version) > intval($version))) {
       self::output($this->t('New version of shells signature database found. Please update!'), 'error');
       return true;
@@ -190,7 +190,7 @@ class shellDetector {
         $referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : $_SERVER["SERVER_NAME"];
         $postdata = http_build_query(array('task' => 'submit', 'ver' => '2', 'code' => base64_encode(file_get_contents($filename)), 'email' => $email, 'ip' => $_SERVER['REMOTE_ADDR']));
         $context = stream_context_create(array('http' => array('method' => 'POST', 'header' => "Content-type: application/x-www-form-urlencoded\r\nReferer: " . $referer . "\r\n", 'content' => $postdata)));
-        $server_version = file_get_contents('http://www.shelldetector.com/api/', 0, $context);
+        $server_version = file_get_contents('/api/', 0, $context);
         self::output($server_version, 'success');
       } else {
         self::output($this->t('Cant find selected file.'), 'error');
