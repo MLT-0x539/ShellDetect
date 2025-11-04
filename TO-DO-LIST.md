@@ -20,3 +20,5 @@
 - [x] write JS code to output real-time results to the WebUI
 - [x] write code to generate paths to custom logfiles for each individual scan
 - [ ] expand upon shell script for proper formatting and dispaying of real-time log results
+- [x] write code that allows you to change default language based upon dropdown menu
+- [x] write automated installation scripts
