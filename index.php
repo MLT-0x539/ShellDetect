@@ -49,6 +49,8 @@ $decoded = file_get_contents("partially_decoded_formatted.db");
       <li><a href="PYexec.php">Execute python shell detection script</a></li>
       <li><a href="BATexec.php">Execute batch result sorting script</a></li>
       <li><a href="BASHexec.php">Execute bash result sorting script</a></li>
+      <li><a href="/installers/XDebug_installer.php">Install and configure XDebug</a></li>
+      <lI><a href="XDebug.php">Perform Deep Packet Analysis via XDebug</a></li>
     </ul>  
   </body>
 </html>
