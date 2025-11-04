@@ -15,3 +15,8 @@
 - [ ] expand upon malicious function/syscall detection so that ALL are included
 - [ ] include copies of source code for all publicly-known webshells
 - [ ] write source code comparison script to look for code patterns matching publicly-known webshells
+- [x] create basic WebUI for displaying results in real-time
+- [x] write JS code that displays WebUI in iframe but only if a specific hyperlink is clicked
+- [x] write JS code to output real-time results to the WebUI
+- [x] write code to generate paths to custom logfiles for each individual scan
+- [ ] expand upon shell script for proper formatting and dispaying of real-time log results
