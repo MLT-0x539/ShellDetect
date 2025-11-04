@@ -15,7 +15,7 @@ if (!file_exists($logpath) {
   mkdir($logpath);
 }
 else {
-throw new Exception(logpath . "file already exist");
+throw new Exception($logpath . "file already exist");
 }
 
 ?>
