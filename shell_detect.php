@@ -6,7 +6,7 @@ set_error_handler(array("shellDetector", "error_handler"));
 date_default_timezone_set('GMT');
 
 $params = array('extension' => array('php', 'txt'));
-if (is_file('shelldetect.ini')) {
+if (is_file('shell_detect.ini')) {
   $params = parse_ini_file('shelldetect.ini');
 }
 
