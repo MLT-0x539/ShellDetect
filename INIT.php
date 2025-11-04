@@ -19,31 +19,31 @@
 
   public function getLanguage() {
     $form_input = $_POST['spoken_language'];
-    if (isset($form_input) && $form_input == "1" {
+    if (isset($form_input) && $form_input == "1") {
       $chosen_lang = $release_edu_qual[0][$language_include];
       include($chosen_lang);
    }
-    else if (isset($form_input) && $form_input == "2" {
+    else if (isset($form_input) && $form_input == "2") {
       $chosen_lang = $release_edu_qual[1][$language_include];
       include($chosen_lang);        
    }
-    else if (isset($form_input) && $form_input == "3" {
+    else if (isset($form_input) && $form_input == "3") {
       $chosen_lang = $release_edu_qual[2][$language_include];
       include($chosen_lang);
  }
-    else if (isset($form_input) && $form_input == "4" {
+    else if (isset($form_input) && $form_input == "4") {
       $chosen_lang = $release_edu_qual[3][$language_include];
       include($chosen_lang);
  }
-    else if (isset($form_input) && $form_input == "5" {
+    else if (isset($form_input) && $form_input == "5") {
       $chosen_lang = $release_edu_qual[4][$language_include];
       include($chosen_lang);
  }
-    else if (isset($form_input) && $form_input == "6" {
+    else if (isset($form_input) && $form_input == "6") {
       $chosen_lang = $release_edu_qual[5][$language_include];
       include($chosen_lang);
  }
-    else if (isset($form_input) && $form_input == "7" {
+    else if (isset($form_input) && $form_input == "7") {
       $chosen_lang = $release_edu_qual[6][$language_include];
       include($chosen_lang);
  }
