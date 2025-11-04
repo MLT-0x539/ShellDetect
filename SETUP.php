@@ -17,5 +17,19 @@ if (!file_exists($logpath) {
 else {
 throw new Exception($logpath . "file already exist");
 }
-
 ?>
+
+<!DOCTYPE html>
+<htmL>
+  <head>
+    <meta charset="UTF-8">
+    <title> SETUP/INSTALLATION SCRIPT </title>
+    <link rel="stylesheet" href="/assets/setup_style.css">
+  </head>
+  <body>
+  <cebter>
+    <h2><u> SETUP INFORMATION: </u></h2>
+    <?php echo "<p>Reaktune logging results can be located at $logfile</p><br />"; ?>
+  </cebter>
+  </body>
+</htmL>
