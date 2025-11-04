@@ -40,6 +40,7 @@ $decoded = file_get_contents("partially_decoded_formatted.db");
       <li><a href="INIT.php">Load primary initialization script</a></li>
       <li><a href="lang_change.php">Change default written language</a></li>
       <li><a href="config.php">Customize tool configuration settings</a></li>
+      <li><a href="/result_logz/">View logfiles/a></li>
     </ul>  
   </body>
 </html>
