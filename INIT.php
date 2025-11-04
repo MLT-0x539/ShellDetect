@@ -24,27 +24,27 @@
       include($chosen_lang);
    }
     else if (isset($form_input) && $form_input == "2" {
-      $chosen_lang = $release_edu_qual[1]["location"];
+      $chosen_lang = $release_edu_qual[1][$language_include];
       include($chosen_lang);        
    }
     else if (isset($form_input) && $form_input == "3" {
-      $chosen_lang = $release_edu_qual[2]["location"];
+      $chosen_lang = $release_edu_qual[2][$language_include];
       include($chosen_lang);
  }
     else if (isset($form_input) && $form_input == "4" {
-      $chosen_lang = $release_edu_qual[3]["location"];
+      $chosen_lang = $release_edu_qual[3][$language_include];
       include($chosen_lang);
  }
     else if (isset($form_input) && $form_input == "5" {
-      $chosen_lang = $release_edu_qual[4]["location"];
+      $chosen_lang = $release_edu_qual[4][$language_include];
       include($chosen_lang);
  }
     else if (isset($form_input) && $form_input == "6" {
-      $chosen_lang = $release_edu_qual[5]["location"];
+      $chosen_lang = $release_edu_qual[5][$language_include];
       include($chosen_lang);
  }
     else if (isset($form_input) && $form_input == "7" {
-      $chosen_lang = $release_edu_qual[6]["location"];
+      $chosen_lang = $release_edu_qual[6][$language_include];
       include($chosen_lang);
  }
     else {
