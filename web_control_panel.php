@@ -23,14 +23,7 @@
   </center>
   
   <?php 
-   error_reporting(0);
-   $shell_detect_include = 'shell_detect.php';
-   $shell_db_include = 'shell_detect.db';
-   $shell_db_include2 = 'shell_detect_plaintext.db';
-   $shell_ini_include = 'shell_detect.ini';
-   $result_sort_include = 'result_sorter.sh';;
-   $sorted_output_results_include = 'result_sorted_output.html';
-   $languages_include = array("BR.php", "chinese.php", "french.php", "german.php", "italian.php", "spanish.php", "russian.php");
+   include("INIT.php");
   ?>
 
  <br />
