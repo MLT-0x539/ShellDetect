@@ -13,3 +13,5 @@
 - [x] expand upon signature detection so that ALL publicly-known webshells are covered#
 - [x] add detection for potentially malicious functions/syscalls
 - [ ] expand upon malicious function/syscall detection so that ALL are included
+- [ ] include copies of source code for all publicly-known webshells
+- [ ] write source code comparison script to look for code patterns matching publicly-known webshells
