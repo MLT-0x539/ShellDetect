@@ -20,7 +20,7 @@
   public function getLanguage() {
     $form_input = $_POST['spoken_language'];
     if (isset($form_input) && $form_input == "1" {
-      $chosen_lang = $release_edu_qual[0]["location"];
+      $chosen_lang = $release_edu_qual[0][$language_include];
       include($chosen_lang);
    }
     else if (isset($form_input) && $form_input == "2" {
