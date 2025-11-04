@@ -45,6 +45,7 @@ $decoded = file_get_contents("partially_decoded_formatted.db");
       <li><a href="config.php">Customize tool configuration settings</a></li>
       <li><a href="/result_logz/">View logfiles</a></li>
       <li><a href="result_sorted_output.html">View real-time detection results</a></li>
+      <li><a href="web_control_panel.php">Load web-based control panel</a></li>
       <li><a href="PYexec.php">Execute python shell detection script</a></li>
       <li><a href="BATexec.php">Execute batch result sorting script</a></li>
       <li><a href="BASHexec.php">Execute bash result sorting script</a></li>
