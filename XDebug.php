@@ -35,7 +35,7 @@ if (isset($_POST['submit'];)) {
 
  else if (!empty($runxdebug) && isset($runxdebug)) {
        echo "<p><b>Launching XDebug interface!</b></p>";
-       header('Location: /xdebug_fullWebUI.php');
+       header('Location: /XDebug_fullWebUI.php');
     }
  }
 ?>
