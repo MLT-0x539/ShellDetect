@@ -39,4 +39,6 @@
 - [ ] create detection support for coldfusion webshells
 - [ ] create detection support for .cgi script webshells
 - [ ] create detection support for other (non-mentioned) languages
+- [ ] Create launcher/control panel for XDebug so it can be controlled via webapp
+- [x] Create auto-installer for XDebug
 - [ ] TO DO: FINISH OFF THE TO-DO LIST, LOL..
