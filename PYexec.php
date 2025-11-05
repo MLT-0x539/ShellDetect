@@ -1,5 +1,9 @@
 <?php
+
 error_reporting(0);
 include("INIT.php");
 pyShellFind();
+
+// display results here
+
 ?>
