@@ -23,7 +23,8 @@ include("russian.php");
 include("spanish.php");
 
 $encoded = file_get_contents("shell_detect.db");
-$decoded = file_get_contents("partially_decoded_formatted.db");
+$partial_decoded = file_get_contents("partially_decoded_formatted.db");
+$fully_decoded = file_get_contents("fully_decoded_formatted.db");
 ?>
 
 <!DOCTYPE html>
