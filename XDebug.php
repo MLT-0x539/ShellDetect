@@ -9,12 +9,12 @@
     <h2><u>XDebug WebCP:</u></h2>
     </center>
     <form action="XDebug.php">
-  <input type="checkbox" id="checkInstall" name="checkInstall" value="checkInstall">
-  <label for="checkInstall"> Check if XDebug is installed properly</label><br>
-  <input type="checkbox" id="runxdebug" name="runxdebug" value="runxdebug">
-  <label for="vehicle2"> Run XDebug launcher</label><br>
-  <input type="submit" value="Submit">
-</form>
+     <input type="checkbox" id="checkInstall" name="checkInstall" value="checkInstall">
+     <label for="checkInstall"> Check if XDebug is installed properly</label><br>
+     <input type="checkbox" id="runxdebug" name="runxdebug" value="runxdebug">
+     <label for="vehicle2"> Run XDebug launcher</label><br>
+     <input type="submit" value="Submit">
+    </form>
 
 <?php
 error_reporting(0);
